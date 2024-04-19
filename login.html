@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>GeeksforGeeks Registration</title>
+	<link rel="stylesheet"
+		href="style.css">
+	<style>
+		/*FOR NAVIGATION BAR*/
+        .topnav {
+            overflow: hidden;
+            background-color: #ca7514;
+            }
+
+        .topnav a {
+            float: center;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 80px 140px;
+            text-decoration: none;
+            font-size: 25px;
+            }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+            }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+            }
+	</style>
+</head>
+
+<body  style="background-image: url('https://wallpaperaccess.com/full/2105008.jpg');">
+
+	<div class="topnav">
+        <a href="home_7_wdl.html">HOME</a>
+        <a  class="active" href="login.html">login</a>
+        <a href="registration.html">registration</a>
+        <a href="assignment_7_wdl.html">Catalogue</a>
+        <!--<a href="Untitled-1.html">ABOUT</a>-->
+      </div>
+      
+
+   
+ 
+    <center>
+	<div class="main">
+		<h1>BOOK CATOLOGUE</h1>
+		<h3>Enter your login credentials</h3>
+		<form action="">
+			<label for="first">
+				Username:
+			</label>
+			<input type="text"
+				id="first"
+				name="first"
+				placeholder="Enter your Username" required>
+
+			<label for="password">
+				Password:
+			</label>
+			<input type="password"
+				id="password"
+				name="password"
+				placeholder="Enter your Password" required>
+
+			
+                <form action="RECIPE.html" method="get">
+                    <button type="submit" formaction="RECIPE.html">Submit</button>
+                   
+                 </form>
+            
+				<!--<button type="submit"
+						onclick="solve()">
+					Submit
+				</button>-->
+			
+		</form>
+		<p>Not registered? 
+			<a href="#"
+			style="text-decoration: none;">
+				Create an account
+			</a>
+		</p>
+	</div>
+    </center>
+</body>
+
+</html>

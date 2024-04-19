@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalogue</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f2f2f2;
+            padding: 10px;
+            height:30px;
+            background-color:white;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        /*FOR NAVIGATION BAR*/
+        .topnav {
+            overflow: hidden;
+            background-color: #ca7514;
+            }
+
+        .topnav a {
+            float: center;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 80px 140px;
+            text-decoration: none;
+            font-size: 25px;
+            }
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+            }
+
+        .topnav a.active {
+            background-color: #04AA6D;
+            color: white;
+            }
+        
+        .books-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 7px;
+            padding: 20px;
+        }
+        .book {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background-color:white;
+        }
+        .book img {
+            width: 100%;
+            height:200px;
+            margin-bottom: 10px;
+        }
+       /* body{
+        background-image: url(https://cdn.wallpapersafari.com/86/37/POjQtp.png) ;
+        }*/
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Catalogue</h1>
+    </header>
+
+    <div class="topnav">
+      
+        <a href="home_7_wdl.html">HOME</a>
+        <a href="login.html">login</a>
+        <a href="registration.html">registration</a>
+        <a class="active" href="assignment_7_wdl.html">Catalogue</a>
+        <!--<a href="Untitled-1.html">ABOUT</a>-->
+      </div>
+      <br> 
+
+    
+    <div class="books-container">
+        <div class="book">
+            <img src="https://covers.openlibrary.org/w/id/386467-M.jpg" alt="Book 1">
+           
+            <p><strong>Author:</strong>Author 1</p>
+            <p><strong>Price:</strong> $10.99</p>
+            <p><strong>Pages:</strong> 200</p>
+        </div>
+        <div class="book">
+            <img src="https://covers.openlibrary.org/w/id/7892687-M.jpg" alt="Book 2">
+          
+            <p><strong>Author:</strong>Author 2</p>
+            <p><strong>Price:</strong> $12.99</p>
+            <p><strong>Pages:</strong> 250</p>
+        </div>
+        <!-- Add more book divs as needed -->
+        <!-- Second row -->
+        <div class="book">
+            <img src="https://covers.openlibrary.org/w/id/8598296-M.jpg" alt="Book 3">
+            
+            <p><strong>Author:</strong> Author 3</p>
+            <p><strong>Price:</strong> $14.99</p>
+            <p><strong>Pages:</strong> 300</p>
+        </div>
+        <div class="book">
+            <img src="https://covers.openlibrary.org/w/id/8843630-M.jpg" alt="Book 4">
+            
+            <p><strong>Author:</strong> Author4</p>
+            <p><strong>Price:</strong> $16.99</p>
+            <p><strong>Pages:</strong> 350</p>
+        </div>
+        <div class="book">
+            <img src="https://covers.openlibrary.org/w/id/11918479-M.jpg" alt="Book 5">
+         
+            <p><strong>Author:</strong> Author 5</p>
+            <p><strong>Price:</strong> $18.99</p>
+            <p><strong>Pages:</strong> 400</p>
+        </div>
+        <!-- Third row -->
+        <div class="book">
+            <img src="https://covers.openlibrary.org/w/id/367233-M.jpg" alt="Book 6">
+            
+            <p><strong>Author:</strong> Author 6</p>
+            <p><strong>Price:</strong> $20.99</p>
+            <p><strong>Pages:</strong> 450</p>
+        </div>
+        <div class="book">
+            <img src="https://covers.openlibrary.org/b/id/13384879-M.jpg" alt="Book 7">
+            
+            <p><strong>Author:</strong>Author 7</p>
+            <p><strong>Price:</strong> $22.99</p>
+            <p><strong>Pages:</strong> 500</p>
+        </div>
+        <div class="book">
+            <img src="https://covers.openlibrary.org/w/id/8231759-M.jpg" alt="Book 8">
+            
+            <p><strong>Author:</strong> Author 8 </p>
+            <p><strong>Price:</strong> $24.99</p>
+            <p><strong>Pages:</strong> 550</p>
+        </div>
+        <!-- Fourth row -->
+        <div class="book">
+            <img src="https://covers.openlibrary.org/b/id/6599662-M.jpg" alt="Book 9">
+            
+            <p><strong>Author:</strong> Author 9 </p>
+            <p><strong>Price:</strong> $26.99</p>
+            <p><strong>Pages:</strong> 600</p>
+        </div>
+    </div>
+
+    
+</body>
+</html>
